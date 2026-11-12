@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-sidebar: #F6F5EE;
+    --bg-canvas: #FCFBF7;
+    --bg-card: #FFFFFF;
+    --border-card: #EAE8DF;
+    --border-card-hover: #C8D1B1;
+    --color-olive: #435624;
+    --color-olive-hover: #36461C;
+    --color-sage: #E2E8CE;
+    --text-primary: #181A16;
+    --text-secondary: #6B6E65;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #FCFBF7;
+    color: #181A16;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-serif-accent {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-style: italic;
+  color: #435624;
+  font-weight: 400;
+}

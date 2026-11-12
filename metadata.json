@@ -1,0 +1,6 @@
+{
+  "name": "LearnTube",
+  "description": "An AI-powered learning web app that converts YouTube videos into structured courses with daily study plans, notes, and quizzes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
